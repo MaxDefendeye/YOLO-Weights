@@ -1,6 +1,7 @@
 # YOLO Weights and tutorial
-## In this tutorial I will show in detail how to deploy **YOLO**, and how to change **TDL SDK** configuration files
-### In this github repository you will find files with Yolov8 model weights look carefully at the file name. Model(yolov8s, yolov8n etc.)_image size(640, 320, 224 etc.)_and applicable parameters (base or modified parameters (augmentation, hyperparameters and so on). I will also include ultralytics files in this github repository for future. In this ultralytics folder you can familiarize yourself with the metrics of each model. ultralytics - runs - detect - (further you will find a folder with the model you are specifically interested in), by going to the folder with the model you will see the results of the metrics.
+In this tutorial I will show in detail how to deploy **YOLO**, and how to change **TDL SDK** configuration files
+
+In this github repository you will find files with Yolov8 model weights look carefully at the file name. Model(yolov8s, yolov8n etc.)_image size(640, 320, 224 etc.)_and applicable parameters (base or modified parameters (augmentation, hyperparameters and so on). I will also include ultralytics files in this github repository for future. In this ultralytics folder you can familiarize yourself with the metrics of each model. ultralytics - runs - detect - (further you will find a folder with the model you are specifically interested in), by going to the folder with the model you will see the results of the metrics.
 
 # How to convert the model to ONNX format
 - Dowload the YOLO.pt weights from this github
