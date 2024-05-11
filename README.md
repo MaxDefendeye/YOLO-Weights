@@ -45,19 +45,19 @@ In this github repository you will find files with Yolov8 model weights look car
 
 # Copy all downloaded files and model weights in onnx format to the docker environment
  - Copy cvitek_tdl_sdk folder
-  - docker cp <path>/home/max/cvitek-tdl-sdk-sg200x <container_name>:/workspace
+   - docker cp <path>/home/max/cvitek-tdl-sdk-sg200x <container_name>:/workspace
  - Copy HOST-TOOLS folder 
-  - docker cp <path>/home/max/host-tools <container_name>:/workspace
+   - docker cp <path>/home/max/host-tools <container_name>:/workspace
  - Copy ZIP Host-tools.tar.gz 
-  - docker cp <path>/home/max/host-tools.tar.gz <container_name>:/workspace
+   - docker cp <path>/home/max/host-tools.tar.gz <container_name>:/workspace
  - Copy TPU-MLIR folder
-  - docker cp <path>/home/max/tpu-mlir <container_name>:/workspace
+   - docker cp <path>/home/max/tpu-mlir <container_name>:/workspace
  - Also you can copy 100 test images (we will use them while converting the model into .cvimodel format). *you can find 100 test images in github (test folder)
-  - docker cp <path>/home/max/test <container_name>:/workspace
+   - docker cp <path>/home/max/test <container_name>:/workspace
  - And copy one test image (also you can find in github test.jpg)
-  - docker cp <path>/home/max/test.jpg <container_name>:/workspace
+   - docker cp <path>/home/max/test.jpg <container_name>:/workspace
  - Copy the model weights in ONNX format 
-  - docker cp <path>/home/max/best.onnx <container_name>:/workspace
+   - docker cp <path>/home/max/best.onnx <container_name>:/workspace
 
 # Then go to the docker environment
  1. (Local machine terminal) docker start <name_of_the_container>
